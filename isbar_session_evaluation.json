@@ -1,0 +1,76 @@
+{
+  "identification": {
+    "found": true,
+    "time_range": "46.0-60.0",
+    "quotes": [
+      "This is Dr. Harry and Dr. Maura, George",
+      "George Harrison, George is 75"
+    ],
+    "summary": "Team introduced themselves (Dr. Harry, Dr. Maura) and patient (George Harrison, 75)",
+    "frame_used": "output/frames/cam1/frame_000053.jpg",
+    "frame_description": "The frame shows a medical setting with a patient on a hospital bed. Two individuals, likely medical professionals, are present. One is standing near the patient's head, and the other is near the foot of the bed. Medical equipment and supplies are visible, indicating a clinical environment.",
+    "score": 2,
+    "rationale": "In the audio, the individuals introduce themselves as 'Dr. Harry and Dr. Maura' and identify the patient as 'George Harrison, George is 75.' This provides identification of themselves and the patient but lacks explicit mention of their roles. The visual evidence supports the setting of a clinical environment, reinforcing their likely roles as medical professionals. Therefore, the score is 2, as the introduction is made but the information is incomplete regarding their specific roles."
+  },
+  "situation": {
+    "found": true,
+    "time_range": "280.0-320.0",
+    "quotes": [
+      "His heart rate went up",
+      "I can't breathe",
+      "His chest is very tight"
+    ],
+    "summary": "Anaphylactic reaction identified with respiratory distress and tachycardia",
+    "frame_used": "output/frames/cam1/frame_000300.jpg",
+    "frame_description": "The image shows a medical setting with three individuals around a patient on a hospital bed. One person is standing at the head of the bed, another is on the side, and a third person is in the background near medical equipment. The individuals appear to be engaged in a medical procedure or assessment, with attention focused on the patient.",
+    "score": 3,
+    "rationale": "The audio evidence clearly identifies the main problems: 'His heart rate went up,' 'I can't breathe,' and 'His chest is very tight.' These statements indicate a focus on respiratory and cardiac issues. Visually, the team is actively engaged with the patient, suggesting they are addressing these concerns. The combination of clear verbal identification of the issues and the team's focused actions supports a score of 3, as the main problems are identified and prioritized without prompting."
+  },
+  "background": {
+    "found": true,
+    "time_range": "53.9-82.9",
+    "quotes": [
+      "George came in to us about six hours ago",
+      "he came in with a diagnosis of low respiratory tract infection",
+      "He's dying for a cigarette and I told him maybe a patch or something"
+    ],
+    "summary": "George, 75, admitted 6 hours ago with LRTI, has a history of smoking and craving cigarettes",
+    "frame_used": "output/frames/cam1/frame_000068.jpg",
+    "frame_description": "The image shows a hospital setting with three individuals. One person is lying on a hospital bed, while two others are standing nearby. One person appears to be examining or attending to the patient, and another is writing or taking notes on a mobile workstation. Medical equipment and supplies are visible in the background.",
+    "score": 2,
+    "rationale": "The audio provides relevant history: 'George came in to us about six hours ago' and 'he came in with a diagnosis of low respiratory tract infection.' This information is pertinent to the patient's current condition. However, the mention of 'He's dying for a cigarette and I told him maybe a patch or something' is less relevant to the immediate medical history and examination. Visually, the team appears to be engaged in patient care, with one person examining the patient and another taking notes, indicating a structured approach to gathering and recording information. The history is relevant and mostly focused, but the inclusion of non-critical information about smoking slightly detracts from a comprehensive focus."
+  },
+  "assessment": {
+    "found": true,
+    "time_range": "315.0-355.0",
+    "quotes": [
+      "I'm worried with the heart rate going up in the new Amox Club",
+      "Do we need to get an EpiPen?",
+      "EpiPen, yeah"
+    ],
+    "summary": "Assessment of anaphylaxis due to recent antibiotic administration, with elevated heart rate and respiratory distress",
+    "frame_used": "output/frames/cam1/frame_000335.jpg",
+    "frame_description": "The frame shows a medical setting with three individuals. One person is lying on a hospital bed, while two others are standing nearby. One person is adjusting something on the bed, and another is holding a clipboard or similar item. Medical equipment and supplies are visible around the room, indicating a clinical environment.",
+    "score": 2,
+    "rationale": "The audio evidence indicates concern about the patient's heart rate and the potential need for an EpiPen, suggesting a logical assessment of the situation. The mention of 'heart rate going up' and 'EpiPen' shows an understanding of the patient's condition and possible allergic reaction. Visually, the team appears to be actively engaged in addressing the situation, with one person attending to the patient and another possibly documenting or coordinating care. The assessment is logical after minimal questioning, as the team quickly identifies a potential solution (EpiPen) based on the symptoms presented."
+  },
+  "recommendation": {
+    "found": true,
+    "time_range": "317.0-574.0",
+    "quotes": [
+      "We need to get an airway and then maybe call anesthetics as well",
+      "We need to give one milligram of epinephrine right now",
+      "If you don't mind actually pulling up 200 milligrams of hydrocortisone as well, we'll get that IV"
+    ],
+    "summary": "Recommendations include administering epinephrine, securing airway, calling anesthetics, and administering hydrocortisone",
+    "frame_used": "output/frames/cam1/frame_000445.jpg",
+    "frame_description": "The frame shows two individuals attending to a patient on a hospital bed. One person is adjusting something near the patient's head, possibly managing the airway, while the other is preparing or administering medication. Medical equipment and supplies are visible, indicating an active medical intervention.",
+    "score": 3,
+    "rationale": "The audio evidence provides clear and specific recommendations: 'We need to get an airway and then maybe call anesthetics as well,' 'We need to give one milligram of epinephrine right now,' and 'If you don't mind actually pulling up 200 milligrams of hydrocortisone as well, we'll get that IV.' These statements are direct and actionable, indicating a comprehensive recommendation without the need for questioning. The visual evidence supports this, showing the team actively engaged in medical procedures, consistent with the recommendations given. Therefore, the score is 3, as the recommendations are clear and comprehensive."
+  },
+  "global": {
+    "score": 2,
+    "average": 2.4,
+    "rationale": "Global rating based on average of all components (2.4)"
+  }
+}
