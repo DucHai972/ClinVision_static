@@ -1,4 +1,4 @@
-# Static Frontend Build
+# ClinVision Static Frontend
 
 This directory contains a standalone static version of the frontend, suitable for hosting on GitHub Pages or any static file server.
 
